@@ -1,0 +1,28 @@
+<table style="width:100%;">
+				<tr style="background-color:<--FAILPASS-->">
+				    <td style="width:5%;height:70px;"><--TESTSEQ--></td>
+					<td style="width:60%;"><b><--TESTCASENAME--></b></br>
+					<i><--TESTCASEDESC--></i>
+					</td>
+					
+					<td style="width:15%;text-align:center;">Time Taken <br/> <--TIMETAKEN--></td>
+					<td style="width:20%;text-align:center;">Status : <--TESTSTATUS-->
+					<button onclick="showSteps('<--TESTSEQ-->')" style="border:0px;border-radius:5px;background-color:blue;color:white;">show</button>
+					<button onclick="hideSteps('<--TESTSEQ-->')" style="border:0px;border-radius:5px;background-color:blue;color:white;">hide</button>
+					</td>
+				</tr>
+			</table>
+			
+			<table id="tc<--TESTSEQ-->" style="width:90%;margin:20px;display:none;" align="center">
+				<tr>
+				<td style="width:50px;"><b>Seq</b></td>
+				<td style="width:500px;"><b>TestStep Name</b></td>
+				<td style="width:250px;text-align:center;"><b>Expected</b></td>
+				<td style="width:250px;text-align:center;"><b>Actual</b></td>
+				<td style="width:100px"><b >Status</b></td>
+			   </tr>
+			   
+			<!--TESTSTEP-->
+				
+			</table>
+			

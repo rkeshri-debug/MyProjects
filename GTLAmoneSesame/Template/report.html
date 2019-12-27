@@ -1,0 +1,45 @@
+<html>
+	<head>
+		
+	</head>
+	<body style="margin:0px">
+		<div style="height:80px;background-color:#ffca00;line-height:80px">
+			<table>
+				<tr>
+				<td style="height:80px;text-indent:50px;">
+				<img src="https://qmp.quinstreet.com/common/images/qmpLogo.png" style="width:80px;"></td>
+				<td style="font-size:22px;text-indent:100px;font-weight:800;">Regression Test Result</td>
+				</tr>
+			</table>
+		</div>
+		<div style="height:200px;">
+		<table style="width:100%;"><tr><td>
+			<table style="margin-left:20px;font-size:20px;">
+			<tr><td><b>Total TestCases</b> : <--TOTAL--></td></tr>
+			<tr><td><b>Total Pass</b> : <--PASS--></td></tr>
+			<tr><td><b>Total Fail</b> : <--FAIL--></td></tr>
+			</table>
+			</td><td>
+			<table>
+			<tr><td style="margin-top:20px;"><BR/><b>Machine Name</b> : <--MACHINE--></td></tr>
+			<tr><td><b>User Name</b> : <--USERNAME--></td></tr>
+			<tr><td><b>Total time Taken</b> : <--TOTALTIME--></td></tr>
+			</table>
+		</td></tr>
+		</table>
+		</div>
+		<div style="background-color:rgb(241,241,241);">
+			
+			<!--TESTCASES-->
+		</div>
+		<script>
+			function showSteps(testcaseid){
+				document.getElementById("tc"+testcaseid).style.display = "block";
+			}
+			function hideSteps(testcaseid){
+				document.getElementById("tc"+testcaseid).style.display = "none";
+			}
+			
+		</script>
+	</body>
+</html>
